@@ -101,5 +101,11 @@ public class Calculator implements ICalculator
         this.result = 0.0;
     }
 
+    //Getting Version
+    public String getVersion()
+    {
+        return version;
+    }
+
     
 }

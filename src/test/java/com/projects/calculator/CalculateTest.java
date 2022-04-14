@@ -65,4 +65,13 @@ public class CalculateTest {
         assertEquals(0, calculator.getResult());
     }
 
+    //Version 
+    @Test
+    @DisplayName("Version")
+    void testVersion()
+    {
+        String version = "1.01";
+        assertEquals(version, calculator.getVersion());
+    }
+
 }
