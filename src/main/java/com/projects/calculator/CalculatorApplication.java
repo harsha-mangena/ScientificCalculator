@@ -20,12 +20,12 @@ public class CalculatorApplication {
 		//Scanner
 		Scanner scan = getScanner();
 		//Input's
-		Integer input1 = scan.nextInt(); 
-		Integer input2 = scan.nextInt();
-		calculate.Addition(input1, input2);
-		System.out.println(calculate.getResult());
-		calculate.clearResult();
-		System.out.println(calculate.getResult());
+		// Integer input1 = scan.nextInt(); 
+		// Integer input2 = scan.nextInt();
+		LogicalCalculator l = new LogicalCalculator();
+		l.AND(1, 2);
+		System.out.println(l.getResult());
+
 	}
 
 }

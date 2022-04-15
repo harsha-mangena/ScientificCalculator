@@ -62,7 +62,7 @@ public class CalculateTest {
     void testClearResult()
     {
         calculator.clearResult();
-        assertEquals(0, calculator.getResult());
+        assertEquals(0.0, calculator.getResult());
     }
 
     //Version 
